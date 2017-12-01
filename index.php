@@ -24,7 +24,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>fsociety</strong> <span>by DebarredBots</span></a>
+						<a href="index.php" class="logo"><strong>fsociety</strong> <span>by DebarredBots</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -33,10 +33,10 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="landing.html">Universal Database</a></li>
 							<li><a href="generic.html">Ask-a-Bot</a></li>
-							<li><a href="elements.html">Skillrack</a></li>
+							<li><a href="skillrack.php">Skillrack</a></li>
 						</ul>
 						<ul class="actions vertical">
 							<li><a href="#" class="button special fit">Get Started</a></li>
@@ -78,7 +78,7 @@
 										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">SkillRack</a></h3>
+										<h3><a href="skillrack.php" class="link">SkillRack</a></h3>
 										<p>Curated SkillRack Solution</p>
 									</header>
 								</article>
