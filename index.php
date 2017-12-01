@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <!--
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -7,7 +8,7 @@
 -->
 <html>
 	<head>
-		<title>SkillRack by fsociety</title>
+		<title>fsociety</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link href="images/fsociety.png" rel="icon" type="image/png" />
@@ -17,13 +18,13 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
+
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
 						<a href="index.php" class="logo"><strong>fsociety</strong> <span>by DebarredBots</span></a>
-
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -44,19 +45,16 @@
 					</nav>
 
 				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
+					<section id="banner" class="major">
 						<div class="inner">
-							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
-							</span>
 							<header class="major">
-								<h1>SkillRack Solutions</h1>
+								<h1>Hi, Welcome to fsociety</h1>
 							</header>
 							<div class="content">
-								<p>Curated SkillRack Solution<br />
-								Currently covering CSE1002 OOPS
-								</p>
+								<p>Refugee Camp for DebarredBots</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+								</ul>
 							</div>
 						</div>
 					</section>
@@ -65,63 +63,76 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
-								<div class="inner">
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
 									<header class="major">
-										<h2>CSE1002: OOP</h2>
+										<h3><a href="landing.html" class="link">LogIn/Register</a></h3>
+										<p>The Bridges to our camp seems to be broken. We have our best bots working on it</p>
 									</header>
-									<p><!-- Add descp here --> <br>
-
-									</p>
-								</div>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="skillrack.php" class="link">SkillRack</a></h3>
+										<p>Curated SkillRack Solution</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Ask-a-Bot</a></h3>
+										<p>General Q&A for Curious Bots</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="/vitDB" class="link">Universal Database</a></h3>
+										<p>The dream of every Crawling Bot</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">lucifer's Blog</a></h3>
+										<p>The story of the one who got away</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Raggedyman's Blog</a></h3>
+										<p>The story of the other one who got away</p>
+									</header>
+								</article>
 							</section>
 
 						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Practice Problem 2</h3>
-											</header>
-											<p>Topics Covered in this practice problem are : <br>
-												<ol>
-													<li>
-														Classes
-													</li>
-												</ol>
-											</p>
-											<ul class="actions">
-												<li><a href="landing.php" class="button">View More</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Practice Problem 1</h3>
-											</header>
-											<p>Topics Covered in this practice problem are : <br>
-												<ol>
-													<li>
-														Basic I/0
-													</li>
-												</ol>
-											</p>
-											<ul class="actions">
-												<li><a href="skill_landing.php" class="button">View More</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>A'bot us</h2>
+									</header>
+									<p><!--Stuff to write--></p>
+									<ul class="actions">
+										<li><a href="landing.html" class="button next">Know More</a></li>
+									</ul>
+								</div>
+							</section>
+
 					</div>
 
 				<!-- Contact -->
@@ -129,8 +140,26 @@
 						<div class="inner">
 							<section>
 								<header class="major">
-										<h2>Updates</h2>
+										<h2>Bot Whispers</h2>
 									</header>
+								<!-- <form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form> -->
 							</section>
 
 							<section class="split">
