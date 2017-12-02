@@ -95,7 +95,7 @@
 												</ol>
 											</p>
 											<ul class="actions">
-												<li><a href="skill_landing.php" class="button">View More</a></li>
+												<li><a href="#" class="button">View More</a></li>
 											</ul>
 										</div>
 									</div>

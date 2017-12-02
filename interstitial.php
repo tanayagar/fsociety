@@ -6,10 +6,11 @@
 									$name=$_POST['name'];
 									$email=$_POST['email'];
 									$message=$_POST['message'];
+									$pagename=$_POST['page'];
 									
 									$dat=date("d/m/Y");
 									$time=date("h:ia");
-									$sql="INSERT INTO `comments`(`name`,`email`,`message`,`dat`,`time`) VALUES ('$name','$email','$message','$dat','$time')";
+									$sql="INSERT INTO `comments`(`name`,`email`,`message`,`dat`,`time`,`page`) VALUES ('$name','$email','$message','$dat','$time','$pagename')";
 									$result=mysqli_query($conn,$sql);
 								}
 								header("location:skill_landing.php");

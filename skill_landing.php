@@ -75,7 +75,7 @@
 							<?php
 							    date_default_timezone_set('Asia/Calcutta');
 								$conn=mysqli_connect('localhost','id3671018_vbhv','123456','id3671018_vit');
-								$sql2="SELECT * FROM `comments`";
+								$sql2="SELECT * FROM `comments` where `page`='pp1'";
 								$result2=mysqli_query($conn,$sql2);
 								while($row=mysqli_fetch_array($result2))
 								{
@@ -100,6 +100,7 @@
 									<li><input type="submit" value="Send Message" class="special" /></li>
 									<li><input type="reset" value="Clear" /></li>
 								</ul>
+								<input type="hidden" name="page" value="pp1">
 							</form>
 						</div>
 					</div>
