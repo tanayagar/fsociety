@@ -23,7 +23,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo"><strong>fsociety</strong> <span>by Debarredbots</span></a>
+						<a href="index.php" class="logo"><strong>fsociety</strong> <span>by Debarredbots</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -32,14 +32,14 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Universal Database</a></li>
-							<li><a href="generic.html">Ask-a-bot</a></li>
-							<li><a href="elements.html">Skillrack</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="landing.php">Universal Database</a></li>
+							<li><a href="landing.php">Ask-a-bot</a></li>
+							<li><a href="skillrack.php">Skillrack</a></li>
 						</ul>
 						<ul class="actions vertical">
 							<li><a href="#" class="button special fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="landing.php" class="button fit">Log In</a></li>
 						</ul>
 					</nav>
 
@@ -75,8 +75,8 @@
 						<div class="inner">
 							<section>
 								<header class="major">
-										<h2>Updates</h2>
-										<p>Comming Soon...</p>
+										<h2>Other links</h2>
+										<p>Coming Soon...</p>
 								</header>
 							</section>
 							<section class="split">

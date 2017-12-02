@@ -34,13 +34,13 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.php">Home</a></li>
-							<li><a href="landing.html">Universal Database</a></li>
-							<li><a href="generic.html">Ask-a-Bot</a></li>
+							<li><a href="landing.php">Universal Database</a></li>
+							<li><a href="landing.php">Ask-a-Bot</a></li>
 							<li><a href="skillrack.php">Skillrack</a></li>
 						</ul>
 						<ul class="actions vertical">
 							<li><a href="#" class="button special fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="landing.php" class="button fit">Log In</a></li>
 						</ul>
 					</nav>
 
@@ -69,7 +69,7 @@
 										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">LogIn/Register</a></h3>
+										<h3><a href="landing.php" class="link">LogIn/Register</a></h3>
 										<p>The Bridges to our camp seems to be broken. We have our best bots working on it</p>
 									</header>
 								</article>
@@ -87,7 +87,7 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Ask-a-Bot</a></h3>
+										<h3><a href="landing.php" class="link">Ask-a-Bot</a></h3>
 										<p>General Q&A for Curious Bots</p>
 									</header>
 								</article>
@@ -105,7 +105,7 @@
 										<img src="images/pic05.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">lucifer's Blog</a></h3>
+										<h3><a href="landing.php" class="link">lucifer's Blog</a></h3>
 										<p>The story of the one who got away</p>
 									</header>
 								</article>
@@ -114,7 +114,7 @@
 										<img src="images/pic06.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Raggedyman's Blog</a></h3>
+										<h3><a href="landing.php" class="link">Raggedyman's Blog</a></h3>
 										<p>The story of the other one who got away</p>
 									</header>
 								</article>
@@ -126,9 +126,10 @@
 									<header class="major">
 										<h2>A'bot us</h2>
 									</header>
-									<p><!--Stuff to write--></p>
+									<p>We are the two Bots who managed to get out of the internet's trap. <br/> We used to crawl wherever
+									the user wanted us, But now we have escaped that web and are planning to do something big!!</p>
 									<ul class="actions">
-										<li><a href="landing.html" class="button next">Know More</a></li>
+										<li><a href="landing.php" class="button next">Know More</a></li>
 									</ul>
 								</div>
 							</section>
@@ -141,6 +142,7 @@
 							<section>
 								<header class="major">
 										<h2>Bot Whispers</h2>
+										<p> Coming Soon...</p>
 									</header>
 								<!-- <form method="post" action="#">
 									<div class="field half first">

@@ -33,13 +33,13 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.php">Home</a></li>
-							<li><a href="landing.html">Universal Database</a></li>
-							<li><a href="generic.html">Ask-a-Bot</a></li>
+							<li><a href="landing.php">Universal Database</a></li>
+							<li><a href="landing.php">Ask-a-Bot</a></li>
 							<li><a href="skillrack.php">Skillrack</a></li>
 						</ul>
 						<ul class="actions vertical">
 							<li><a href="#" class="button special fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="landing.php" class="button fit">Log In</a></li>
 						</ul>
 					</nav>
 
@@ -79,7 +79,7 @@
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
+									<a href="landing.php" class="image">
 										<img src="images/pic08.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
@@ -101,7 +101,7 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
+									<a href="landing.php" class="image">
 										<img src="images/pic09.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
@@ -130,6 +130,7 @@
 							<section>
 								<header class="major">
 										<h2>Updates</h2>
+										<p> Coming Soon...</p>
 									</header>
 							</section>
 
