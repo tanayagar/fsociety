@@ -78,14 +78,17 @@
 									$name=$_POST['name'];
 									$email=$_POST['email'];
 									$message=$_POST['message'];
-									$sql="INSERT INTO `comments`(`name`,`email`,`message`) VALUES ('$name','$email','$message')";
+									$dat=date("d/m/Y");
+									$time_now=mktime(date('h')+5,date('i')+30,date('s'));
+									$time=date("h:ia",$time_now);
+									$sql="INSERT INTO `comments`(`name`,`email`,`message`,`dat`,`time`) VALUES ('$name','$email','$message','$dat','$time')";
 									$result=mysqli_query($conn,$sql);
 								}
 								$sql2="SELECT * FROM `comments`";
 								$result2=mysqli_query($conn,$sql2);
 								while($row=mysqli_fetch_array($result2))
 								{
-									echo "<h4>".$row['name']."</h4>" .date("d/m/Y"). "&nbsp&nbsp".date("h:ia").  "<br/><p><i>".$row['message']."</i></p><hr/><br/><br/>";
+									echo "<h4>".$row['name']."</h4>" .$dat. "&nbsp&nbsp".$time.  "<br/><p><i>".$row['message']."</i></p><hr/><br/><br/>";
 								}
 							?>
 							<h5> Drop your comments here</h5>
