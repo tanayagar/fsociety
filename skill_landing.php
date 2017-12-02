@@ -88,7 +88,7 @@
 								$result2=mysqli_query($conn,$sql2);
 								while($row=mysqli_fetch_array($result2))
 								{
-									echo "<h4>".$row['name']."</h4>" .$dat. "&nbsp&nbsp".$time.  "<br/><p><i>".$row['message']."</i></p><hr/><br/><br/>";
+									echo "<h4>".$row['name']."</h4>" .$row['dat']. "&nbsp&nbsp".$row['time'].  "<br/><p><i>".$row['message']."</i></p><hr/><br/><br/>";
 								}
 							?>
 							<h5> Drop your comments here</h5>
