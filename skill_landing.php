@@ -12,6 +12,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	    <link href="images/fsociety.png" rel="icon" type="image/png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -72,18 +73,8 @@
 								<h2> Comment Section </h2>
 							</header>
 							<?php
-								$conn=mysqli_connect('localhost','root','','VIT') or die("Error");
-								if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
-								{
-									$name=$_POST['name'];
-									$email=$_POST['email'];
-									$message=$_POST['message'];
-									$dat=date("d/m/Y");
-									$time_now=mktime(date('h')+5,date('i')+30,date('s'));
-									$time=date("h:ia",$time_now);
-									$sql="INSERT INTO `comments`(`name`,`email`,`message`,`dat`,`time`) VALUES ('$name','$email','$message','$dat','$time')";
-									$result=mysqli_query($conn,$sql);
-								}
+							    date_default_timezone_set('Asia/Calcutta');
+								$conn=mysqli_connect('localhost','id3671018_vbhv','123456','id3671018_vit');
 								$sql2="SELECT * FROM `comments`";
 								$result2=mysqli_query($conn,$sql2);
 								while($row=mysqli_fetch_array($result2))
@@ -92,7 +83,7 @@
 								}
 							?>
 							<h5> Drop your comments here</h5>
-							<form method="post" action="skill_landing.php">
+							<form method="post" name='comment' action="interstitial.php">
 								<div class="field half first">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" required/>
