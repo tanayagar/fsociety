@@ -59,7 +59,7 @@
 									<p> Question Text</p>
 									<h3>Solution</h3>
 									<pre><code>#include &ltstdio.h&gt</code></pre>
-									<script src="//onlinegdb.com/embed/js/rk98aZyWf" type="text/javascript"></script>
+									<!--<script src="//onlinegdb.com/embed/js/rk98aZyWf" type="text/javascript"></script>-->
 								</div>
 							</section>
 
@@ -67,7 +67,47 @@
 
 					<!-- Comment Section -->
 					<div id="main" class="alt">
-
+						<div class="inner">
+							<header class="major">
+								<h2> Comment Section </h2>
+							</header>
+							<?php
+								$conn=mysqli_connect('localhost','root','','VIT') or die("Error");
+								if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
+								{
+									$name=$_POST['name'];
+									$email=$_POST['email'];
+									$message=$_POST['message'];
+									$sql="INSERT INTO `comments`(`name`,`email`,`message`) VALUES ('$name','$email','$message')";
+									$result=mysqli_query($conn,$sql);
+								}
+								$sql2="SELECT * FROM `comments`";
+								$result2=mysqli_query($conn,$sql2);
+								while($row=mysqli_fetch_array($result2))
+								{
+									echo "<h4>".$row['name']."</h4>" .date("d/m/Y"). "&nbsp&nbsp".date("h:ia").  "<br/><p><i>".$row['message']."</i></p><hr/><br/><br/>";
+								}
+							?>
+							<h5> Drop your comments here</h5>
+							<form method="post" action="skill_landing.php">
+								<div class="field half first">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" required/>
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" required/>
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="4" required></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="special" /></li>
+									<li><input type="reset" value="Clear" /></li>
+								</ul>
+							</form>
+						</div>
 					</div>
 
 				<!-- Contact -->
