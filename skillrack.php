@@ -140,7 +140,7 @@
 										<span class="icon alt fa-envelope"></span>
 										<h3>Email</h3>
 										<a href="mailto:lucifer@fsociety.co.in">lucifer@fsociety.co.in</a>
-										<a href="#">raggedyman@fsociety.co.in</a>
+										<a href="mailto:raggedyman@fsociety.co.in">raggedyman@fsociety.co.in</a>
 									</div>
 								</section>
 								<section>
