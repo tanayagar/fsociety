@@ -40,7 +40,7 @@
         </div>
         <div class="col-sm-4"></div>
         <div class="row-sm-1">
-          <a href="landing.php" title="Menu"><span class="toplink">MENU<span class="glyphicon glyphicon-align-justify"></span></span></a>
+          <a href="landing.php" title="Menu"><span class="toplink menu">MENU<span class="glyphicon glyphicon-align-justify"></span></span></a>
         </div>
       </div>
       <div class="container block1">

@@ -20,6 +20,10 @@
 	height: inherit;
 }
 
+.menu{
+  padding-left:16px;
+}
+
 .toplink b{
   background-color: white;
   color: #242943;
@@ -39,6 +43,9 @@
 
 .image{
   width:40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .block1{
