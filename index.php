@@ -50,7 +50,7 @@
       <div id="block2" class="container block2">
         <div class="col-sm-5 block2_1">
           <a href="landing.php" title="Click to Join"> <h2 class="page-header">LogIn/Register</h2></a>
-          <h5 class="text-gap">THE BRIDGE TO OUR CAMP SEEMS TO BE BROKEN. DON'T WORRY, OUR BEST BOTS ARE WORKING ON IT.<h5>
+          <h5 class="text-gap">BECOME ONE OF US.<h5>
         </div>
         <div class="col-sm-7 block2_2">
           <a href="landing.php" title="Let's Code"><h2 class="page-header">Code-ssion</h2></a>

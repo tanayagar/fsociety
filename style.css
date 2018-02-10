@@ -5,14 +5,14 @@
 
 .titlebar{
   background-color: #071339;
-  padding:10px;
+  padding:1%;
   font-size: 15px;
 }
 
 .toplink{
   text-transform: uppercase;
-  padding-top:5px;
-  padding-bottom: 3px;
+  padding-top:1%;
+  padding-bottom: 1%;
   color:white;
   letter-spacing: 4px;
   border: 0;
@@ -38,7 +38,6 @@
 }
 
 .image{
-  height:40px;
   width:40px;
 }
 
@@ -63,34 +62,20 @@
 .block2_1{
   color:white;
   background-color: #73BBD3;
-  padding:100px;
-  padding-left:30px;
-  padding-right:100px;
-  padding-top:100px;
-  padding-bottom:130px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .block2_1 a, .block2_2 a, .block3_1 a, .block3_2 a, .block4_1 a, .block4_2 a, .aboutus a, .details a{
   text-decoration: none;
   color:white;
 }
 
-.block2_1:hover{
-  background-image: url("images/pic01.jpg");
-}
-.block2_2:hover{
-  background-image: url("images/pic02.jpg");
-}
-.block3_1:hover{
-  background-image: url("images/pic03.jpg");
-}
-.block3_2:hover{
-  background-image: url("images/pic04.jpg");
-}
-.block4_1:hover{
-  background-image: url("images/pic05.jpg");
-}
-.block4_2:hover{
-  background-image: url("images/pic06.jpg");
+.block2_1:hover, .block2_2:hover, .block3_1:hover, .block3_2:hover, .block4_1:hover, .block4_2:hover{
+  background-color: #071339;
+  transition-duration: 1s;
+  transform-style: preserve-3d;
 }
 
 
@@ -98,51 +83,46 @@
 .block2_2{
   color:white;
   background-color: #8179B6;
-  padding:100px;
-  padding-left:30px;
-  padding-right:100px;
-  padding-top:100px;
-  padding-bottom:161px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .block3_1{
   color:white;
   background-color: #DC8B82;
-  padding:100px;
-  padding-left:30px;
-  padding-right:100px;
-  padding-top:100px;
-  padding-bottom:160px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .block3_2{
   color:white;
   background-color: #D7AD87;
-  padding:100px;
-  padding-left:30px;
-  padding-right:100px;
-  padding-top:100px;
-  padding-bottom:160px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .block4_1{
   color:white;
   background-color: #829AD2;
-  padding:100px;
-  padding-left:30px;
-  padding-right:100px;
-  padding-top:100px;
-  padding-bottom:145px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .block4_2{
   color:white;
   background-color: #7CB198;
-  padding:100px;
-  padding-left:30px;
-  padding-right:100px;
-  padding-top:100px;
-  padding-bottom:160px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .aboutus{
   width:100%;
