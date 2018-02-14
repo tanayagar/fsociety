@@ -1,0 +1,36 @@
+.wrapper{
+  font-family : 'Ubuntu', sans-serif;
+  background-color: #071339;
+  color:white;
+}
+
+.block1{
+  background-color: #071339;
+  color:white;
+  padding-top: 2%;
+  width:100%;
+}
+
+.searchbox{
+  padding:5%;
+  background-color: #071339;
+  width:100%;
+}
+
+body{
+  background-color: #071339;
+}
+
+.links{
+  text-decoration: none;
+  color:white;
+  background-color: #071339;
+}
+
+.checka{
+  font-size: 22px;
+  color:white;
+}
+.checkb{
+  color:white;
+}
