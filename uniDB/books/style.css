@@ -4,6 +4,50 @@
   color:white;
 }
 
+.titlebar{
+  background-color: #071339;
+  padding:1%;
+  font-size: 15px;
+}
+
+.toplink{
+  text-transform: uppercase;
+  padding-top:1%;
+  padding-bottom: 1%;
+  color:white;
+  letter-spacing: 4px;
+  border: 0;
+	display: inline-block;
+	height: inherit;
+}
+
+.menu{
+  padding-left:16px;
+}
+
+.toplink b{
+  background-color: white;
+  color: #242943;
+	display: inline-block;
+	line-height: 1.65em;
+	margin-right: 0.325em;
+	padding: 0 0.125em 0 0.375em;
+}
+
+.toplink:hover{
+  color: #9bf1ff;
+}
+
+.toplink b:hover{
+  background-color:#9bf1ff;
+}
+
+.image{
+  width:40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .block1{
   background-color: #071339;
   color:white;
@@ -18,6 +62,7 @@
 }
 
 body{
+  font-family : 'Ubuntu', sans-serif;
   background-color: #071339;
 }
 

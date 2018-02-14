@@ -6,7 +6,7 @@
     <meta name="keywords" content="universal database, movies, books, games"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <link href="../../images/fsociety.png" rel="icon" type="image/png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/035468853e.js"></script>
@@ -16,6 +16,18 @@
   </head>
 
   <body>
+    <div class="navbar-top titlebar">
+      <div class="col-sm-6">
+        <a href="../../index.php" title="Home"><span class="toplink"><b>fsociety</b> by DebarredBots</span></a>
+      </div>
+      <div class="col-sm-1">
+        <img src="../../images/fsociety.gif" class="image img-circle" title="Fear Me">
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="row-sm-1">
+        <a href="../../landing.php" title="Menu"><span class="toplink menu">MENU<span class="glyphicon glyphicon-align-justify"></span></span></a>
+      </div>
+    </div>
     <div class="jumbotron wrapper">
       <nav class="navbar navbar-default">
         <div class="container-fluid">

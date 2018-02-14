@@ -7,7 +7,7 @@
 		<meta name="theme-color" content="#3D59AB">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"> 
     <link href="images/fsociety.png" rel="icon" type="image/png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/035468853e.js"></script>
@@ -63,7 +63,7 @@
           <h5 class="text-gap">GENERAL Q&A FOR CURIOUS BOTS.</h5>
         </div>
         <div class="col-sm-5 block3_2">
-          <a href="vitDB/" title="Heaven Online"><h2 class="page-header">Universal Database</h2></a>
+          <a href="uniDB/books/" title="Heaven Online"><h2 class="page-header">Universal Database</h2></a>
           <h5 class="text-gap">THE DREAM OF EVERY CRAWLING BOT.</h5>
         </div>
       </div>
