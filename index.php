@@ -7,7 +7,7 @@
 		<meta name="theme-color" content="#3D59AB">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <link href="images/fsociety.png" rel="icon" type="image/png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/035468853e.js"></script>
@@ -39,8 +39,16 @@
           <img src="images/fsociety.gif" class="image img-circle" title="Fear Me">
         </div>
         <div class="col-sm-4"></div>
-        <div class="row-sm-1">
-          <a href="landing.php" title="Menu"><span class="toplink menu">MENU<span class="glyphicon glyphicon-align-justify"></span></span></a>
+        <div class="col-sm-1">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle menu" title="Menu" type="button" data-toggle="dropdown"><span class="toplink">MENU<span class="glyphicon glyphicon-align-justify"></span></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Login/Signup</a></li>
+              <li><a href="index.php">Pending</a></li>
+              <li><a href="recent-paid/">Recent Paid</a></li>
+              <li><a href="history/">History</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="container block1">
