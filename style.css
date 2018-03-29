@@ -16,12 +16,16 @@
   color:white;
   letter-spacing: 4px;
   border: 0;
-	display: inline-block;
-	height: inherit;
+  display: inline-block;
+  height: inherit;
+}
+
+.menuside{
+    padding-right:0px;
+    padding-right:10px;
 }
 
 .menu{
-  padding-left:16px;
   background-color: #071339;
 }
 

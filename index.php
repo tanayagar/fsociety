@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>fsociety</title>
-    <meta name="keywords" content="fsociety ,lucifer ,raggedyman ,mrrobot ,blog ,skillrack ,universal database, q&a ,bots ,coding ,programming"/>
+    <meta name="keywords" content="fsociety ,lucifer ,raggedyman ,mrrobot ,blog ,Movies, TV series, Shows, Books, Games, download, Hollywood, Bollywood, Novels, fiction, direct links, direct download, universal database, q&a ,bots ,coding ,programming"/>
 		<meta name="theme-color" content="#3D59AB">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin'>
     <link href="images/fsociety.png" rel="icon" type="image/png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/035468853e.js"></script>
@@ -38,18 +38,19 @@
         <div class="col-sm-1">
           <img src="images/fsociety.gif" class="image img-circle" title="Fear Me">
         </div>
-        <div class="col-sm-4"></div>
-        <div class="col-sm-1">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-1 menuside">
           <div class="dropdown">
             <button class="btn dropdown-toggle menu" title="Menu" type="button" data-toggle="dropdown"><span class="toplink">MENU<span class="glyphicon glyphicon-align-justify"></span></span></button>
             <ul class="dropdown-menu">
-              <li><a href="#">Login/Signup</a></li>
-              <li><a href="index.php">Pending</a></li>
-              <li><a href="recent-paid/">Recent Paid</a></li>
-              <li><a href="history/">History</a></li>
+              <li><a href="landing.php">Login/Signup</a></li>
+              <li><a href="uniDB/">Universal Database</a></li>
+              <li><a href="landing.php">Ask-a-bot</a></li>
+              <li><a href="landing.php">Code-ssion</a></li>
             </ul>
           </div>
         </div>
+        <div class="col-sm-1"></div>
       </div>
       <div class="container block1">
         <h1 class="page-header">Hi, Welcome to fsociety</h1>
@@ -86,9 +87,9 @@
         </div>
       </div>
       <div class="container aboutus">
-        <a href="landing.php" title="Our Story"><h2 class="underline">A'bot us</h2></a>
+        <h2 class="underline">A'bot us</h2>
         <h4 class="text-gap"> We are the two Bots who managed to get out of the internet's trap.<br/> We used to crawl wherever the user wanted us, But now we have escaped that web and are planning to do something big!!</h4>
-        <button type="button" href="landing.php" class="btn btn-default btn-lg getbutton"><b>Know More</b>&nbsp&nbsp<span class="glyphicon glyphicon-triangle-right"></span></button>
+        <a href="landing.php" title="Our Story"><button type="button" class="btn btn-default btn-lg getbutton"><b>Know More</b>&nbsp&nbsp<span class="glyphicon glyphicon-triangle-right"></span></button></a>
       </div>
       <div class="container details">
         <div class="col-sm-8 det-left">
