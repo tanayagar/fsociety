@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
+<?php
+  @ob_start();
+  session_start();
+  if(!isset($_SESSION['logged'])){
+    $name = "MENU";
+    $greet = NULL;
+    echo "<title>fsociety</title>";
+    //$_SESSION['errorDes'] = "Plz login first!";
+    //header("location: login/");
+  }
+  else if(isset($_SESSION['usrname']) && isset($_SESSION['logged']) && $_SESSION['logged'] == 'in'){
+    $name = $_SESSION['usrname'];
+    $greet = $_SESSION['usrname'];
+    echo "<title>Welcome $name</title>";
+  }
+?>
   <head>
     <meta charset="utf-8">
-    <title>fsociety</title>
+    <!-- <title>fsociety</title> -->
     <meta name="keywords" content="fsociety ,lucifer ,raggedyman ,mrrobot ,blog ,Movies, TV series, Shows, Books, Games, download, Hollywood, Bollywood, Novels, fiction, direct links, direct download, universal database, q&a ,bots ,coding ,programming"/>
 		<meta name="theme-color" content="#3D59AB">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,7 +27,7 @@
     <link href="images/fsociety.png" rel="icon" type="image/png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/035468853e.js"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -41,24 +57,31 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-1 menuside">
           <div class="dropdown">
-            <button class="btn dropdown-toggle menu" title="Menu" type="button" data-toggle="dropdown"><span class="toplink">MENU<span class="glyphicon glyphicon-align-justify"></span></span></button>
+            <button class="btn dropdown-toggle menu" title="Menu" type="button" data-toggle="dropdown"><span class="toplink"><?php echo $name; ?><span class="glyphicon glyphicon-align-justify"></span></span></button>
             <ul class="dropdown-menu">
-              <li><a href="landing.php">Login/Signup</a></li>
-              <li><a href="uniDB/">Universal Database</a></li>
-              <li><a href="landing.php">Ask-a-bot</a></li>
-              <li><a href="landing.php">Code-ssion</a></li>
+              <?php
+               if(!isset($_SESSION['logged'])){
+                 echo "<li><a href='login/'>Login/Signup</a></li>";
+               }
+               echo "<li><a href='uniDB/'>Universal Database</a></li>
+               <li><a href='landing.php'>Ask-a-bot</a></li>
+               <li><a href='landing.php'>Code-ssion</a></li>";
+               if(isset($_SESSION['logged'])){
+                 echo "<li><a href='logout/'>Logout</a></li>";
+               }
+              ?>
             </ul>
           </div>
         </div>
         <div class="col-sm-1"></div>
       </div>
       <div class="container block1">
-        <h1 class="page-header">Hi, Welcome to fsociety</h1>
+        <h1 class="page-header">Hi <?php echo $greet; ?>, Welcome to fsociety</h1>
         <h5 class="text-gap">Refugee Camp for DebarredBots &nbsp &nbsp &nbsp<a href="#block2" class="btn btn-default btn-lg getbutton"><b>Get Started</b>&nbsp&nbsp<span class="glyphicon glyphicon-triangle-right"></span></a></h5>
       </div>
       <div id="block2" class="container block2">
         <div class="col-sm-5 block2_1">
-          <a href="landing.php" title="Click to Join"> <h2 class="page-header">LogIn/Register</h2></a>
+          <a href="login/" title="Click to Join"> <h2 class="page-header">LogIn/Register</h2></a>
           <h5 class="text-gap">BECOME ONE OF US.<h5>
         </div>
         <div class="col-sm-7 block2_2">
