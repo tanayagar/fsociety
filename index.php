@@ -63,7 +63,7 @@
                if(!isset($_SESSION['logged'])){
                  echo "<li><a href='login/'>Login/Signup</a></li>";
                }
-               echo "<li><a href='uniDB/'>Universal Database</a></li>
+               echo "<li><a href='uniDB/books/'>Universal Database</a></li>
                <li><a href='landing.php'>Ask-a-bot</a></li>
                <li><a href='landing.php'>Code-ssion</a></li>";
                if(isset($_SESSION['logged'])){
@@ -120,6 +120,9 @@
           <h5 class="text-gap"></h5>
           <ul>
             <h4><li>Universal Database is live now. Check it out <a href="uniDB/books/" title="New added"><b>here.</b></a></li></h4>
+          </ul>
+          <ul>
+            <h4><li>Login/Signup is live now. Join the army from <a href="login/" title="New added"><b>here.</b></a></li></h4>
           </ul>
         </div>
         <div class="col-sm-4 det-right">

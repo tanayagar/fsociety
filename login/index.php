@@ -35,10 +35,10 @@
           <div class="dropdown">
             <button class="btn dropdown-toggle menu" title="Menu" type="button" data-toggle="dropdown"><span class="toplink">MENU<span class="glyphicon glyphicon-align-justify"></span></span></button>
             <ul class="dropdown-menu">
-              <li><a href="login/">Ask-a-bot</a></li>
-              <li><a href="index.php">Universal Database</a></li>
-              <li><a href="settled/">lucifer's blog</a></li>
-              <li><a href="history/">RaggedyMan's blog</a></li>
+              <li><a href="../landing.php">Ask-a-bot</a></li>
+              <li><a href="../uniDB/books/">Universal Database</a></li>
+              <li><a href="../landing.php">lucifer's blog</a></li>
+              <li><a href="../landing.php">RaggedyMan's blog</a></li>
             </ul>
           </div>
         </div>
