@@ -7,8 +7,6 @@
     $name = "MENU";
     $greet = NULL;
     echo "<title>fsociety</title>";
-    //$_SESSION['errorDes'] = "Plz login first!";
-    //header("location: login/");
   }
   else if(isset($_SESSION['usrname']) && isset($_SESSION['logged']) && $_SESSION['logged'] == 'in'){
     $name = $_SESSION['usrname'];

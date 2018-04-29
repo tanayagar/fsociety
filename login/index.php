@@ -129,8 +129,6 @@
         $result = mysqli_query($db, $query) or die("Error");
         $count = mysqli_num_rows($result);
         if($count!=1){
-          //$errorDes="Wrong Username \n or Password";
-          //echo $errorDes;
           echo "<script type='text/javascript'>document.getElementById('error').innerHTML='Wrong Username or Password';</script>";
         }
         else{
@@ -187,17 +185,12 @@
           $error = $error + 1;
         }
         $errorDes=$errorDes." already exists";
-        //echo $error;
-        //echo "<script type='text/javascript'>document.getElementById('error').innerHTML=$error;</script>";
         if($error == 0){
           $query="insert into users (usrname, first_name, last_name, passwd, email, mobileno, time) values ('$usrname','$firstname','$lastname','$passwd','$email','$mobileno','$time');";
           $result=mysqli_query($db,$query);
-          //header("location:../login/");
           echo "<script type='text/javascript'>document.getElementById('error').innerHTML='Signup Successful! Login to continue.';</script>";
         }
         else{
-          //echo $errorDes;
-          //header("location:../login/");
           echo "<script type='text/javascript'>document.getElementById('error').innerHTML='$errorDes';</script>";
         }
 
