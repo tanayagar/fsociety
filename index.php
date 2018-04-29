@@ -93,8 +93,11 @@
       </div>
       <div class="container details">
         <div class="col-sm-8 det-left">
-          <a href="landing.php" title="Pssspss"><h2 class="underline">Bot Whispers</h2></a>
-          <h5 class="text-gap">COMING SOON...</h5>
+          <h2 class="underline">Bot Whispers</h2>
+          <h5 class="text-gap"></h5>
+          <ul>
+            <h4><li>Universal Database is live now. Check it out <a href="uniDB/books/" title="New added"><b>here.</b></a></li></h4>
+          </ul>
         </div>
         <div class="col-sm-4 det-right">
           <div class="sec1">
